@@ -10,7 +10,6 @@ namespace minirpg
             Console.Title = "MiniRPG";
             Intro();
             Session01();
-            Session02();
         }
         public static void Intro()
         {
@@ -64,7 +63,7 @@ namespace minirpg
                         break;
                     case "-1:-2":
                         {
-                            
+                            Console.WriteLine("-Master Bedroom-");
                         }
                         break;
                     case "0:-2":
@@ -84,12 +83,12 @@ namespace minirpg
                         break;
                     case "-2:-1":
                         {
-
+                            Console.WriteLine("-Master Bedroom-");
                         }
                         break;
                     case "-1:-1":
                         {
-
+                            Console.WriteLine("-Master Bedroom-");
                         }
                         break;
                     case "0:-1":
@@ -137,26 +136,31 @@ namespace minirpg
                     case "-2:1":
                         {
                             Console.WriteLine("-Hallway-");
+                            Console.WriteLine("There is a lot of paintings in here. Useless...");
                         }
                         break;
                     case "-1:1":
                         {
                             Console.WriteLine("-Hallway-");
+                            Console.WriteLine("There is a lot of paintings in here. Useless...");
                         }
                         break;
                     case "0:1":
                         {
                             Console.WriteLine("-Hallway-");
+                            Console.WriteLine("There is a lot of paintings in here. Useless...");
                         }
                         break;
                     case "1:1":
                         {
                             Console.WriteLine("-Hallway-");
+                            Console.WriteLine("There is a lot of paintings in here. Useless...");
                         }
                         break;
                     case "2:1":
                         {
                             Console.WriteLine("-Hallway-");
+                            Console.WriteLine("There is a lot of paintings in here. Useless...");
                         }
                         break;
                     case "-2:2":
@@ -322,13 +326,7 @@ namespace minirpg
                 }
             }
         }
-        public static void Session02()
-        {
-            Console.WriteLine("BASEMENT");
-            Console.WriteLine("-------------------");
-
-
-        }
+        
 
     }
 }
